@@ -3,6 +3,11 @@ import PropTypes from 'prop-types';
 import '../NewsItem.css';
 
 class NewsItem extends Component{
+	constructor(props){
+		super();
+		console.log(props);
+	}
+
 	static propTypes = {
 		newsData: PropTypes.shape({
 			title: PropTypes.string.isRequired,
@@ -11,7 +16,6 @@ class NewsItem extends Component{
 	};
 
 	render(){
-		console.log(this.props);
 		const { title, description } = this.props.newsData;
 		return(
 			<div>

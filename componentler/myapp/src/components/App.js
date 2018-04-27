@@ -5,7 +5,7 @@ import '../App.css';
 import News from './News';
 
 class App extends Component {
-  render() {
+	render() {
 		const news = [{
 			id: 1,
 			title: "title 1",

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import NewsItem from './NewsItem';
 
 class News extends React.Component{
+
 	static propTypes = {
 		news: PropTypes.array.isRequired,
 		name: PropTypes.oneOfType([
