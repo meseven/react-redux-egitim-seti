@@ -5,6 +5,10 @@ import NewsItem from './NewsItem';
 class News extends React.Component{
 	static propTypes = {
 		news: PropTypes.array.isRequired,
+		name: PropTypes.oneOfType([
+			PropTypes.number,
+			PropTypes.string
+		]).isRequired,
 	};
 
 	render(){
