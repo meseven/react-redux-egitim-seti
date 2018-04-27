@@ -11,12 +11,15 @@ class News extends React.Component{
 		]).isRequired,
 	};
 
+	static defaultProps = {
+		name: "Ahmet"
+	};
+
 	render(){
 		const elements = this.props.news.map(news =>
 			<NewsItem
 				key={news.id}
-				title={news.title}
-				description={news.description} />
+				newsData={news}/>
 		);
 
 		return(
