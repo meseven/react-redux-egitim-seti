@@ -5,7 +5,6 @@ import '../NewsItem.css';
 class NewsItem extends Component{
 	constructor(props){
 		super();
-		console.log(props);
 	}
 
 	static propTypes = {

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import NewsItem from './NewsItem';
+import NewsForm from './NewsForm';
 
 class News extends React.Component{
 
@@ -25,8 +26,8 @@ class News extends React.Component{
 
 		return(
 			<div>
-				{ this.props.name }
 				{ elements }
+				<NewsForm addNews={this.props.addNews}/>
 			</div>
 		)
 	}
