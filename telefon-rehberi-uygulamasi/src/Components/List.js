@@ -16,7 +16,7 @@ class List extends Component {
 			filterText: e.target.value
 		})
 	};
-g
+
 	render() {
 		const filteredContacts = this.props.contacts.filter(
 			contact => {
