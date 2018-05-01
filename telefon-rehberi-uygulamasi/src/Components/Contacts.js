@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 import List from './List';
 import Form from './Form';
 
-const Contacts = () => {
-	return (
-		<div>
-			<List/>
-			<Form/>
-		</div>
-	);
-};
+class Contacts extends Component {
+	render() {
+		return (
+			<div>
+				<List/>
+				<Form/>
+			</div>
+		);
+	}
+}
 
 export default Contacts;
