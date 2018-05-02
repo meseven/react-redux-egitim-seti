@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import Child from './Child';
 
 class App extends Component {
-
   state = {
     name: 'Mehmet'
   };
@@ -9,10 +9,6 @@ class App extends Component {
 	constructor(props) {
 		super();
 		console.log("constructor");
-
-		this.state = {
-		  name: 'Kenan'
-    }
 	}
 
 	componentWillMount() {
@@ -21,12 +17,6 @@ class App extends Component {
 
 	componentDidMount() {
     console.log('componentDidMount');
-
-    setTimeout(() => {
-      this.setState({
-        name: 'Mehmet'
-      });
-    }, 2000)
 	}
 
 	render() {
@@ -34,6 +24,8 @@ class App extends Component {
     return (
       <div className="App">
         { this.state.name }
+				<br/>
+				<Child/>
       </div>
     );
   }
