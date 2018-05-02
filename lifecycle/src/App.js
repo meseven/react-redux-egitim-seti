@@ -1,38 +1,31 @@
 import React, { Component } from 'react';
-import Child from './Child';
+//import Child from './Child';
 
 class App extends Component {
   state = {
-    name: 'Mehmet'
+    tl: 0
   };
 
-	constructor(props) {
-		super();
-		console.log("constructor");
-	}
-
-	componentWillMount() {
-    console.log('componentWillMount');
-	}
-
-	componentDidMount() {
-    console.log('componentDidMount');
-	}
-
-	changeName = () => {
+	changeTl = (e) => {
 	  this.setState({
-      name: 'Kenan'
+      tl: e.target.value
     })
   };
 
+	shouldComponentUpdate(nextProps, nextState) {
+    //console.log('shouldComponentUpdate', nextProps, nextState);
+	  return (nextState.tl % 10) === 0;
+	}
+
 	render() {
-	  console.log('render');
+	  console.log('render çalıştı');
     return (
       <div className="App">
-        { this.state.name }
-				<br/>
-				<Child name={this.state.name}/>
-        <button onClick={this.changeName}>Change the name</button>
+				<input name="tl" id="tl" onChange={this.changeTl} />
+				<br/><br/>
+
+        Her elma 10TL. <br/>
+        { this.state.tl / 10 } tane elma alabilirsiniz.
       </div>
     );
   }
