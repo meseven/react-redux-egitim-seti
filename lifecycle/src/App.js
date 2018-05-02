@@ -19,13 +19,20 @@ class App extends Component {
     console.log('componentDidMount');
 	}
 
+	changeName = () => {
+	  this.setState({
+      name: 'Kenan'
+    })
+  };
+
 	render() {
 	  console.log('render');
     return (
       <div className="App">
         { this.state.name }
 				<br/>
-				<Child/>
+				<Child name={this.state.name}/>
+        <button onClick={this.changeName}>Change the name</button>
       </div>
     );
   }
