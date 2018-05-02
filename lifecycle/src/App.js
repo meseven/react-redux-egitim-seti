@@ -17,6 +17,14 @@ class App extends Component {
 	  return (nextState.tl % 10) === 0;
 	}
 
+	componentWillUpdate(nextProps, nextState) {
+    console.log('componentWillUpdate çalıştı', nextProps, nextState);
+	}
+
+	componentDidUpdate(prevProps, prevState) {
+    console.log('componentDidUpdate', prevProps, prevState);
+	}
+
 	render() {
 	  console.log('render çalıştı');
     return (
