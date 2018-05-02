@@ -19,6 +19,16 @@ class App extends Component {
     console.log('componentWillMount');
 	}
 
+	componentDidMount() {
+    console.log('componentDidMount');
+
+    setTimeout(() => {
+      this.setState({
+        name: 'Mehmet'
+      });
+    }, 2000)
+	}
+
 	render() {
 	  console.log('render');
     return (
