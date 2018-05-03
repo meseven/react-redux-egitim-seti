@@ -1,32 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   state = {
-    users: []
+    users: [],
+    isLoading: true
   };
 
 	componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(data => data.json())
-      .then(users => {
-				this.setState({
-					users,
-				});
-			})
+	  setTimeout(() => {
+			fetch('https://jsonplaceholder.typicode.com/users')
+				.then(data => data.json())
+				.then(users => {
+					this.setState({
+						users,
+						isLoading: false
+					});
+				})
+    }, 3000)
 	}
 
 	render() {
+	  const { isLoading } = this.state;
+
     return (
       <div className="App">
         <h1>Users</h1>
+        { isLoading ? 'Loading...' : '' }
         {
-          this.state.users.map(user =>
-            <div key={ user.id } className={"userList"}>
-              { user.name } -  @{ user.username }
-            </div>
-          )
+          !isLoading ? this.state.users.map(user =>
+						<div key={ user.id } className={"userList"}>
+							{ user.name } -  @{ user.username }
+						</div>
+					) : null
         }
       </div>
     );
