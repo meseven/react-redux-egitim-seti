@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Posts from './components/Posts';
+
+
 import axios from 'axios';
 
 class App extends Component {
@@ -24,13 +27,7 @@ class App extends Component {
 	render() {
     return (
       <div className="App">
-        {
-          this.state.loading ? <div>Loading...</div> :
-            this.state.posts.map(post => <div key={post.id}>
-							<h5>{post.title}</h5>
-						</div>
-					)
-        }
+				<Posts {...this.state} />
       </div>
     );
   }
