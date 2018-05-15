@@ -4,6 +4,10 @@ import './App.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+const News = () => {
+  return(<h1>News page</h1>)
+};
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +24,8 @@ class App extends Component {
 							return(<h1>Contact page</h1>)
 						}
 					} />
+
+					<Route path="/news" exact strict component={News} />
         </div>
       </Router>
     );
