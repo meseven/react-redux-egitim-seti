@@ -13,7 +13,7 @@ const Profile = () => {
 };
 
 const Error = () => {
-	return(<div>This page was not found.</div>)
+	return(<h1>This page was not found.</h1>)
 };
 
 class App extends Component {
@@ -63,7 +63,7 @@ class App extends Component {
 							this.state.loggedIn ? ( <Profile/>) : (<Redirect to="/" />)
 						)} />
 
-						<Route component={Error}></Route>
+						<Route component={Error} />
 					</Switch>
         </div>
       </Router>
