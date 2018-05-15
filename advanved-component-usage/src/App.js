@@ -4,7 +4,6 @@ import './App.css';
 
 import Posts from './components/Posts';
 
-
 import axios from 'axios';
 
 class App extends Component {
@@ -17,10 +16,12 @@ class App extends Component {
     axios.get('https://jsonplaceholder.typicode.com/posts')
       .then(posts => posts.data)
       .then(posts => {
-        this.setState({
-          posts,
-          loading: false
-        });
+        setTimeout(() => {
+					this.setState({
+						posts,
+						loading: false
+					});
+        }, 2000)
       })
 	}
 
