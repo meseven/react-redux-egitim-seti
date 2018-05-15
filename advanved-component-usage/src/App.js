@@ -5,7 +5,6 @@ import Posts from './components/Posts';
 class App extends Component {
   state = {
     posts: [],
-    loading: true
   };
 
 	componentWillMount() {
@@ -15,7 +14,6 @@ class App extends Component {
         setTimeout(() => {
 					this.setState({
 						posts,
-						loading: false
 					});
         }, 2000)
       })
