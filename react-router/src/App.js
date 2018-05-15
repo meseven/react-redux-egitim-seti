@@ -3,18 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 import { BrowserRouter as Router, Route, Link, NavLink, Redirect, Switch } from 'react-router-dom';
-
-const News = ({ match }) => {
-	return(<h1>News page: { match.params.id }</h1>)
-};
-
-const Profile = () => {
-	return(<h1>Profile Page: Mehmet Seven</h1>)
-};
-
-const Error = () => {
-	return(<h1>This page was not found.</h1>)
-};
+import News from './components/News';
+import Profile from './components/Profile';
+import Error from './components/Error';
 
 class App extends Component {
   state = {
