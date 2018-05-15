@@ -15,7 +15,7 @@ class App extends Component {
             }
           } />
 
-					<Route path="/contact" exact render={
+					<Route path="/contact" exact strict render={
 						() => {
 							return(<h1>Contact page</h1>)
 						}
