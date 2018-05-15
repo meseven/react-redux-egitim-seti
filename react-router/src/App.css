@@ -22,6 +22,12 @@
   font-size: large;
 }
 
+.activelink{
+  padding: 3px;
+  color: white;
+  background-color: black;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

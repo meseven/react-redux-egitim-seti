@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 
 const News = ({ match }) => {
   return(<h1>News page: { match.params.id }</h1>)
@@ -13,9 +13,9 @@ class App extends Component {
     return (
 			<Router>
         <div>
-          <Link to="/">Homepage</Link> <br/>
-          <Link to="/contact">Contact</Link> <br/>
-          <Link to="/news/2">News</Link>
+          <NavLink activeClassName="activelink" exact to="/">Homepage</NavLink> <br/>
+          <NavLink activeClassName="activelink" exact to="/contact">Contact</NavLink> <br/>
+          <NavLink activeClassName="activelink" exact to="/news/2">News</NavLink>
 
 					<Route path="/" exact render={
             () => {
