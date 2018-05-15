@@ -4,8 +4,8 @@ import './App.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-const News = () => {
-  return(<h1>News page</h1>)
+const News = ({ match }) => {
+  return(<h1>News page: { match.params.id }</h1>)
 };
 
 class App extends Component {
@@ -25,7 +25,7 @@ class App extends Component {
 						}
 					} />
 
-					<Route path="/news" exact strict component={News} />
+					<Route path="/news/:id" exact strict component={News} />
         </div>
       </Router>
     );
