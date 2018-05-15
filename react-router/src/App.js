@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { BrowserRouter as Router, Route, Link, NavLink, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, NavLink, Redirect, Switch } from 'react-router-dom';
 
 const News = ({ match }) => {
 	return(<h1>News page: { match.params.id }</h1>)
@@ -10,6 +10,10 @@ const News = ({ match }) => {
 
 const Profile = () => {
 	return(<h1>Profile Page: Mehmet Seven</h1>)
+};
+
+const Error = () => {
+	return(<div>This page was not found.</div>)
 };
 
 class App extends Component {
@@ -40,23 +44,27 @@ class App extends Component {
             value={ this.state.loggedIn ? 'Logout': 'Login' }
           />
 
-					<Route path="/" exact render={
-            () => {
-              return(<h1>Home page</h1>)
-            }
-          } />
+					<Switch>
+						<Route path="/" exact render={
+							() => {
+								return(<h1>Home page</h1>)
+							}
+						} />
 
-					<Route path="/contact" exact strict render={
-						() => {
-							return(<h1>Contact page</h1>)
-						}
-					} />
+						<Route path="/contact" exact strict render={
+							() => {
+								return(<h1>Contact page</h1>)
+							}
+						} />
 
-					<Route path="/news/:id" exact strict component={News} />
+						<Route path="/news/:id" exact strict component={News} />
 
-					<Route path="/profile" exact strict render={ () => (
-					  this.state.loggedIn ? ( <Profile/>) : (<Redirect to="/" />)
-          )} />
+						<Route path="/profile" exact strict render={ () => (
+							this.state.loggedIn ? ( <Profile/>) : (<Redirect to="/" />)
+						)} />
+
+						<Route component={Error}></Route>
+					</Switch>
         </div>
       </Router>
     );
