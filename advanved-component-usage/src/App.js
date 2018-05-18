@@ -1,42 +1,26 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import Posts from './components/Posts';
-import Users from './components/Users';
+import FirstNumber from './components/FirstNumber';
+import SecondNumber from './components/SecondNumber';
 
 class App extends Component {
   state = {
-    posts: [],
-    users: [],
+		firstNumber: Math.random(),
+		secondNumber: Math.random()
   };
 
-	componentWillMount() {
-    axios.get('https://jsonplaceholder.typicode.com/posts')
-      .then(posts => posts.data)
-      .then(posts => {
-        setTimeout(() => {
-					this.setState({
-						posts,
-					});
-        }, 2000)
-      });
-
-		axios.get('https://jsonplaceholder.typicode.com/users')
-			.then(users => users.data)
-			.then(users => {
-				setTimeout(() => {
-					this.setState({
-						users,
-					});
-				}, 500)
-			})
+	componentDidMount() {
+		setInterval(() => {
+			this.setState({
+				firstNumber: Math.random(),
+			});
+		}, 1000)
 	}
 
 	render() {
     return (
       <div className="App">
-				<Users {...this.state} />
-				<hr/>
-				<Posts {...this.state} />
+				<FirstNumber firstNumber={this.state.firstNumber} />
+				<SecondNumber secondNumber={this.state.secondNumber} />
       </div>
     );
   }
