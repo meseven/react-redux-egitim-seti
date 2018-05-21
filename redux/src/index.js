@@ -4,28 +4,24 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-import { createStore } from 'redux';
+import { combineReducers, createStore } from 'redux';
 
-function reducer(state, action) {
-	if (action.type === 'changeTheState') {
-	  return action.payload.newState
-	}
-	return 'state';
+function userReducer(state = '', action) {
+	return state;
 }
 
-const store = createStore(reducer);
+function productReducer(state = [], action) {
+	return state;
+}
+
+const rootReducer = combineReducers({
+	products: productReducer,
+	user: userReducer
+});
+const store = createStore(rootReducer);
 
 console.log(store.getState());
 
-const action = {
-	type: 'changeTheState',
-	payload: {
-		newState: 'my new state'
-	}
-};
-
-store.dispatch(action);
-console.log(store.getState());
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
