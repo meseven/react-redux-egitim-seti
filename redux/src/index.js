@@ -18,7 +18,13 @@ const rootReducer = combineReducers({
 	products: productReducer,
 	user: userReducer
 });
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, {
+	products: [{
+		name: 'Samsung',
+		type: 'TV'
+	}],
+	user: 'Mehmet'
+});
 
 console.log(store.getState());
 
