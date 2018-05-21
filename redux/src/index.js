@@ -7,7 +7,6 @@ import registerServiceWorker from './registerServiceWorker';
 import { combineReducers, createStore } from 'redux';
 import { Provider } from 'react-redux';
 
-
 function userReducer(state = '', action) {
 	switch(action.type){
 		case 'userUpdate':
@@ -39,17 +38,5 @@ const store = createStore(
 	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-const updateUserAction = {
-	type: 'userUpdate',
-	payload: {
-		user: 'Ahmet'
-	}
-}
-
-store.dispatch(updateUserAction);
-
-console.log(store.getState());
-
-
-ReactDOM.render(<Provider><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
 registerServiceWorker();
