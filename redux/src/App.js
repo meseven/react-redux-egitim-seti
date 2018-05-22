@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { connect } from 'react-redux';
-import { updateUser, getUsers } from './actions/user-actions';
+import { updateUser } from './actions/users-actions';
 
 class App extends Component {
 	constructor(props) {
@@ -12,50 +12,30 @@ class App extends Component {
 	}
 
 	onUpdateUser(){
-	  this.props.dispatch(updateUser('Ahmet'));
-  }
-
-	componentDidMount() {
-		console.log(this.props);
-		//this.props.onGetUsers();
+		this.props.dispatch(updateUser('Ahmet'));
 	}
 
 	render() {
-    console.log(this.props);
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+		console.log(this.props);
+		return (
+			<div className="App">
+				<header className="App-header">
+					<img src={logo} className="App-logo" alt="logo" />
+					<h1 className="App-title">Welcome to React</h1>
+				</header>
+				<p className="App-intro">
+					To get started, edit <code>src/App.js</code> and save to reload.
+				</p>
 
-        <button onClick={this.onUpdateUser}>
-          Change The Name
-        </button>
-      </div>
-    );
-  }
+				<h2>{  this.props.user }</h2>
+				<button onClick={this.onUpdateUser}>Change the name</button>
+			</div>
+		);
+	}
 }
 
-const mapStateToProps = (state, props) => {
-  return {
-    ...state,
-    theJob: props.job
-  };
-};
-
-const mapActionsToProps = {
-  onUpdateUser: updateUser,
-	onGetUsers: getUsers
-};
-
-const mapDispatchToProps = (dispatch, props) => {
-	return {
-		onUpdateUser: (name) => dispatch(updateUser(name))
-	}
+const mapStateToProps = state => {
+	return state;
 };
 
 export default connect(mapStateToProps)(App);
