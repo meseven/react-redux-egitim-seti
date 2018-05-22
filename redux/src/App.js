@@ -12,7 +12,7 @@ class App extends Component {
 	}
 
 	onUpdateUser(){
-		this.props.dispatch(updateUser('Ahmet'));
+		this.props.onUpdateUser('Ahmet');
 	}
 
 	render() {
@@ -38,4 +38,8 @@ const mapStateToProps = state => {
 	return state;
 };
 
-export default connect(mapStateToProps)(App);
+const mapDispatchToProps = {
+	onUpdateUser: updateUser
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
