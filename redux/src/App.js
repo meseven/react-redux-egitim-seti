@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { connect } from 'react-redux';
-import { updateUser } from './actions/user-actions';
+import { updateUser, getUsers } from './actions/user-actions';
 
 class App extends Component {
 	constructor(props) {
@@ -12,8 +12,13 @@ class App extends Component {
 	}
 
 	onUpdateUser(){
-	  this.props.onUpdateUser('Ahmet');
+	  this.props.dispatch(updateUser('Ahmet'));
   }
+
+	componentDidMount() {
+		console.log(this.props);
+		//this.props.onGetUsers();
+	}
 
 	render() {
     console.log(this.props);
@@ -43,7 +48,14 @@ const mapStateToProps = (state, props) => {
 };
 
 const mapActionsToProps = {
-  onUpdateUser: updateUser
+  onUpdateUser: updateUser,
+	onGetUsers: getUsers
 };
 
-export default connect(mapStateToProps, mapActionsToProps)(App);
+const mapDispatchToProps = (dispatch, props) => {
+	return {
+		onUpdateUser: (name) => dispatch(updateUser(name))
+	}
+};
+
+export default connect(mapStateToProps)(App);

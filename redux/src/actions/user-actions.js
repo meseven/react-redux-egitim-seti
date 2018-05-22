@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 export const UPDATE_USER = 'UPDATE_USER';
 
 export function updateUser(newUser){
@@ -6,5 +8,19 @@ export function updateUser(newUser){
 		payload: {
 			user: newUser
 		}
+	}
+}
+
+export function getUsers(){
+	return dispatch => {
+		$.ajax({
+			url: 'https://jsonplaceholder.typicode.com/posts',
+			success() {
+				console.log('success');
+			},
+			error(){
+				console.log('err');
+			}
+		})
 	}
 }
