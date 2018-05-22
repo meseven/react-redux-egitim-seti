@@ -35,8 +35,11 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return state;
+const mapStateToProps = (state, props) => {
+  return {
+    ...state,
+    theJob: props.job
+  };
 };
 
 const mapActionsToProps = {
