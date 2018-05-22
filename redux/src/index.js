@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-import { combineReducers, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import { applyMiddleware, compose, combineReducers, createStore } from 'redux';
 import { Provider } from 'react-redux';
 
 import userReducer from './reducers/userReducer';
@@ -15,6 +16,12 @@ const rootReducer = combineReducers({
 	user: userReducer
 });
 
+const allStoreEnhancers = compose(
+	applyMiddleware(
+		thunk
+	),
+	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
 const store = createStore(
 	rootReducer,
 	{
@@ -24,8 +31,12 @@ const store = createStore(
 	}],
 		user: 'Mehmet'
 	},
-	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+	allStoreEnhancers
 );
 
-ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(
+	<Provider store={store}>
+		<App job="engineer" />
+	</Provider>,
+	document.getElementById('root'));
 registerServiceWorker();

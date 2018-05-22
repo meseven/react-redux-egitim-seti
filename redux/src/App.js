@@ -3,9 +3,24 @@ import logo from './logo.svg';
 import './App.css';
 
 import { connect } from 'react-redux';
+import { updateUser, getUsers } from './actions/user-actions';
 
 class App extends Component {
-  render() {
+	constructor(props) {
+		super(props);
+		this.onUpdateUser = this.onUpdateUser.bind(this);
+	}
+
+	onUpdateUser(){
+	  this.props.dispatch(updateUser('Ahmet'));
+  }
+
+	componentDidMount() {
+		console.log(this.props);
+		//this.props.onGetUsers();
+	}
+
+	render() {
     console.log(this.props);
     return (
       <div className="App">
@@ -16,13 +31,31 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <button onClick={this.onUpdateUser}>
+          Change The Name
+        </button>
       </div>
     );
   }
 }
 
-const mapStateToProps = state => {
-  return state;
+const mapStateToProps = (state, props) => {
+  return {
+    ...state,
+    theJob: props.job
+  };
+};
+
+const mapActionsToProps = {
+  onUpdateUser: updateUser,
+	onGetUsers: getUsers
+};
+
+const mapDispatchToProps = (dispatch, props) => {
+	return {
+		onUpdateUser: (name) => dispatch(updateUser(name))
+	}
 };
 
 export default connect(mapStateToProps)(App);
