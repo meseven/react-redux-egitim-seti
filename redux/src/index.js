@@ -27,5 +27,8 @@ const store = createStore(
 	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(
+	<Provider store={store}>
+		<App count={4} />
+	</Provider>, document.getElementById('root'));
 registerServiceWorker();
