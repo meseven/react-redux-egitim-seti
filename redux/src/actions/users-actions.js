@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 export const UPDATE_USER = 'UPDATE_USER';
 
 export function updateUser(newUser){
@@ -6,5 +8,13 @@ export function updateUser(newUser){
 		payload: {
 			user: newUser
 		}
+	}
+}
+
+export function getUsers(){
+	return dispatch => {
+		axios.get('https://jsonasdasdplaceholder.typicode.com/users/')
+			.then(response => console.log(response.data))
+			.catch(error => console.log(error))
 	}
 }
