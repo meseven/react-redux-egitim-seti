@@ -8,7 +8,8 @@ import { createStore } from 'redux';
 
 const initialState = {
 	count: 1,
-	users: []
+	values: [],
+	user: "Mehmet"
 };
 
 const reducer = (state = initialState, action) => {
@@ -16,12 +17,15 @@ const reducer = (state = initialState, action) => {
 		case "ADD":
 			return {
 				...state,
-				count: state.count + action.payload
+				count: state.count + action.payload,
+				values: [...state.values, action.payload]
 			};
 		case "SUBTRACT":
 			return {
 				...state,
-				count: state.count - action.payload
+				count: state.count - action.payload,
+				values: [...state.values, action.payload],
+				user: "Ahmet"
 			};
 		default:
 			return state;
