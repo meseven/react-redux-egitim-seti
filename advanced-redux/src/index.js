@@ -3,52 +3,65 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import logger from 'redux-logger';
 
+import axios from 'axios';
+import logger from 'redux-logger';
+import thunk from 'redux-thunk';
 import { applyMiddleware, createStore } from 'redux';
 
 const initialState = {
-	count: 1,
-	values: [],
-	user: "Mehmet"
+	fetching: false,
+	fetched: false,
+	users: [],
+	error: null
 };
 
 const reducer = (state = initialState, action) => {
 	switch (action.type){
-		case "ADD":
+		case "FETCH_USERS_START":
 			return {
 				...state,
-				count: state.count + action.payload,
-				values: [...state.values, action.payload]
+				fetching: true
 			};
-		case "SUBTRACT":
+
+		case "FETCH_USERS_ERROR":
 			return {
 				...state,
-				count: state.count - action.payload,
-				values: [...state.values, action.payload],
-				user: "Ahmet"
+				fetching: false,
+				error: action.payload
 			};
+
+		case "RECEIVE_USERS":
+			return {
+				...state,
+				fetching: false,
+				fetched: true,
+				users: action.payload
+			};
+
 		default:
 			return state;
 	}
 };
 
-const middleware = applyMiddleware(logger);
+const middleware = applyMiddleware(thunk, logger);
 const store = createStore(reducer, middleware);
 
-store.dispatch({
-	type: "ADD",
-	payload: 1
-});
+store.dispatch(dispatch => {
+	dispatch({
+		type: 'FETCH_USERS_START'
+	});
 
-store.dispatch({
-	type: "ADD",
-	payload: 10
-});
-
-store.dispatch({
-	type: "SUBTRACT",
-	payload: 5
+	axios.get('https://jsonplacehadasolder.typicode.com/users/')
+		.then(response => response.data)
+		.then(response => dispatch({
+			type: 'RECEIVE_USERS',
+			payload: response
+		}))
+		.catch(error => dispatch({
+			type: 'FETCH_USERS_ERROR',
+			payload: error
+		}))
 });
 
 ReactDOM.render(<App />, document.getElementById('root'));
