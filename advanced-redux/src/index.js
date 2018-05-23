@@ -52,7 +52,7 @@ store.dispatch(dispatch => {
 		type: 'FETCH_USERS_START'
 	});
 
-	axios.get('https://jsonplacehadasolder.typicode.com/users/')
+	axios.get('https://jsonplaceholder.typicode.com/users/')
 		.then(response => response.data)
 		.then(response => dispatch({
 			type: 'RECEIVE_USERS',
