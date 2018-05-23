@@ -16,9 +16,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		setTimeout(() => {
-			this.props.onGetUsers();
-		}, 2000);
+		this.props.onGetUsers();
 	}
 
 	render() {
