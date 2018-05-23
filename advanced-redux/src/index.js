@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import logger from 'redux-logger';
 
-import { createStore } from 'redux';
+import { applyMiddleware, createStore } from 'redux';
 
 const initialState = {
 	count: 1,
@@ -32,11 +33,8 @@ const reducer = (state = initialState, action) => {
 	}
 };
 
-const store = createStore(reducer);
-
-store.subscribe(() => {
-	console.log('store updated!', store.getState());
-});
+const middleware = applyMiddleware(logger);
+const store = createStore(reducer, middleware);
 
 store.dispatch({
 	type: "ADD",
