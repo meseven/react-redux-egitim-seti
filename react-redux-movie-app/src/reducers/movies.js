@@ -1,8 +1,6 @@
-function movies(state = [], action){
+export default (state = [], action) => {
 	switch (action.type){
 		default:
 			return state;
 	}
 }
-
-export default movies;
