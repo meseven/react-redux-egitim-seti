@@ -9,6 +9,7 @@ import thunk from 'redux-thunk';
 import rootReducer from './reducers/rootReducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 
 const store = createStore(
 	rootReducer,
@@ -18,9 +19,11 @@ const store = createStore(
 );
 
 ReactDOM.render(
-	<Provider store={store}>
-		<App />
-	</Provider>,
+	<BrowserRouter>
+		<Provider store={store}>
+			<App />
+		</Provider>
+	</BrowserRouter>,
 	document.getElementById('root')
 );
 registerServiceWorker();
