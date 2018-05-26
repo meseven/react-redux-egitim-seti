@@ -14,12 +14,12 @@ import { Link, Route } from 'react-router-dom';
 class App extends Component {
 
 	state = {
-		menuFixed: false,
+		menuFixed: null,
 		overlayFixed: false,
 	};
 
 	stickTopMenu = () => this.setState({ menuFixed: true });
-	unStickTopMenu = () => this.setState({ menuFixed: false });
+	unStickTopMenu = () => this.setState({ menuFixed: null });
 
   render() {
 		const { menuFixed } = this.state;
