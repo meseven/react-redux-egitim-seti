@@ -4,7 +4,8 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 
 const app = express();
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: '50mb' }));
+app.use(bodyParser.urlencoded({ extended: false }));
 dotenv.config();
 
 const dbUrl = `mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}`;
@@ -37,7 +38,7 @@ mongodb.MongoClient.connect(dbUrl, (err, db) =>  {
         if (err) {
           res.status(500).json({ errors: { global: "Something went wrong" }});
         } else {
-          res.json({ game: result.ops[0] });
+          res.json({ movie: result.ops[0] });
         }
       });
     } else {
