@@ -1,7 +1,23 @@
 # React & Redux Movie App Backend
 That Restful API develop with Node.JS and Express.
 
-# Movies
+# How to install
+## Clone this folder and install dependencies.
+
+`npm install`
+
+## Development enviroments
+Create a file named ".env" in the root directory and fill its contents as follows.
+
+```ruby
+DB_HOST=xxx
+DB_NAME=xxx
+```
+
+## Run the app
+`npm start`
+
+# Endpoints
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
