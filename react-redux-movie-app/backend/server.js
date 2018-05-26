@@ -5,8 +5,8 @@ import dotenv from 'dotenv';
 
 const app = express();
 app.use(bodyParser.json());
-
 dotenv.config();
+
 const dbUrl = `mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}`;
 
 const validate = data => {
@@ -82,7 +82,7 @@ mongodb.MongoClient.connect(dbUrl, (err, db) =>  {
   app.use((req, res) => {
     res.status(404).json({
       errors: {
-        global: "Still working on it. Please try again later when we implement it"
+        global: "Still working on it. Please try again later when we implement it."
       }
     });
   });
