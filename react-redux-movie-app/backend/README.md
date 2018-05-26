@@ -1,8 +1,8 @@
 # React & Redux Movie App Backend
 That Restful API develop with Node.JS and Express.
 
-# How to install
-## Clone this folder and install dependencies.
+## How to install
+Clone this folder and install dependencies.
 
 `npm install`
 
@@ -17,7 +17,7 @@ DB_NAME=xxx
 ## Run the app
 `npm start`
 
-# Endpoints
+## Endpoints
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
