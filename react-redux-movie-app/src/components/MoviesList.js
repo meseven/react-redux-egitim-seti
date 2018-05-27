@@ -20,7 +20,9 @@ const MoviesList = ({ movies }) => {
 };
 
 MoviesList.propTypes = {
-	movies: PropTypes.object.isRequired
+	movies: PropTypes.shape({
+		movies: PropTypes.array.isRequired
+	}).isRequired
 };
 
 export default MoviesList;
