@@ -2,10 +2,12 @@ import express from 'express';
 import mongodb from 'mongodb';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
+import cors from 'cors';
 
 const app = express();
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cors());
 dotenv.config();
 
 const dbUrl = `mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}`;
