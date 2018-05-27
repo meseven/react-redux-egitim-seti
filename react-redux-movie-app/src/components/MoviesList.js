@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MovieCard from './MovieCard';
-import { Grid } from 'semantic-ui-react'
 
 const MoviesList = ({ movies }) => {
 	const emptyMessage = (
