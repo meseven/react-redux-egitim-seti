@@ -7,7 +7,7 @@ import MoviesList from '../MoviesList';
 
 class MoviesPage extends Component {
 	static propTypes = {
-		movies: PropTypes.array.isRequired
+		movies: PropTypes.object.isRequired
 	};
 
 	componentDidMount() {
