@@ -1,14 +1,11 @@
-export function setMovies(movies){
-	return {
-		type: "SET_MOVIES",
-		movies
-	}
-}
+import { API_BASE } from '../config/env';
+import axios from 'axios';
 
 export function fetchMovies(){
 	return dispatch => {
-		fetch('http://localhost:8080/api/movies')
-			.then(res => res.json())
-			.then(data => dispatch(setMovies(data.movies)))
+		axios.get(`${API_BASE}/movies`)
+			.then(result => result.data)
+			.then(data => console.log(data.movies))
+			.catch(error => console.log(error))
 	}
 }
