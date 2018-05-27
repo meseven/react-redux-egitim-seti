@@ -12,6 +12,7 @@
     "react-thunk": "^1.0.0",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
     "semantic-ui-css": "^2.3.1",
     "semantic-ui-react": "^0.80.2"
   },
