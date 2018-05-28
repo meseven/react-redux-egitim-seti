@@ -23,6 +23,10 @@
     margin-bottom:10px
 }
 
+.inlineError{
+    color: #f44336
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
