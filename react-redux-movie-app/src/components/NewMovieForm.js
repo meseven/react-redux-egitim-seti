@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import { Button, Form, Image } from 'semantic-ui-react'
+import { Button, Form, Image, Message } from 'semantic-ui-react'
 import InlineError from './InlineError';
 
 class NewMovieForm extends Component {
@@ -67,6 +67,17 @@ class NewMovieForm extends Component {
 					<Image src={this.state.cover} size='small' />
 					<div className="clearfix"></div>
 					<Button type='submit'>Submit</Button>
+
+					{
+						this.props.newMovie.error.response
+						&&
+						(
+							<Message negative>
+								<Message.Header>We're Sorry</Message.Header>
+								<p>A problem occured while recording.</p>
+							</Message>
+						)
+					}
 				</Form>
 			</div>
 		);
