@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Icon, Image, Grid } from 'semantic-ui-react'
+import { Card, Grid } from 'semantic-ui-react'
 
 const MovieCard = ({ movie }) => (
 	<Grid.Column>

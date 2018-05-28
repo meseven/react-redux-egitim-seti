@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MovieCard from './MovieCard';
 import { Grid } from 'semantic-ui-react';
+import { HashLoader } from 'react-spinners';
 
 const MoviesList = ({ movies }) => {
 	const emptyMessage = (
@@ -10,6 +11,13 @@ const MoviesList = ({ movies }) => {
 
 	const moviesList = (
 		<div>
+
+			<HashLoader
+				size={40}
+				color={'#36bdb3'}
+				loading={movies.fetching}
+			/>
+
 			{
 				movies.error.response
 					? <h3>Error retrieving data!</h3>
