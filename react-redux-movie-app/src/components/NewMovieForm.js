@@ -7,6 +7,12 @@ class NewMovieForm extends Component {
 		cover: ''
 	};
 
+	handleChange = (e) => {
+		this.setState({
+			[e.target.name]: e.target.value
+		});
+	};
+
 	render() {
 		return (
 			<div>
@@ -16,19 +22,21 @@ class NewMovieForm extends Component {
 						<label>Title</label>
 						<input
 							id="title"
+							name="title"
 							value={this.state.title}
-							onChange={this.handeChange}
+							onChange={this.handleChange}
 							placeholder='Title' />
 					</Form.Field>
 					<Form.Field>
 						<label>Cover Url</label>
 						<input
 							id="cover"
+							name="cover"
 							value={this.state.cover}
-							onChange={this.handeChange}
+							onChange={this.handleChange}
 							placeholder='Cover Url' />
 					</Form.Field>
-					<Image src='/assets/images/wireframe/image.png' size='small' />
+					<Image src={this.state.cover} size='small' />
 					<div className="clearfix"></div>
 					<Button type='submit'>Submit</Button>
 				</Form>
