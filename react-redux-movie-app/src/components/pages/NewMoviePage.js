@@ -7,6 +7,7 @@ class NewMoviePage extends Component {
 	render() {
 		return (
 			<div>
+				<h2>New Movie</h2>
 				<NewMovieForm
 					newMovie={this.props.newMovie}
 					onNewMovieSubmit={this.props.onNewMovieSubmit}/>
