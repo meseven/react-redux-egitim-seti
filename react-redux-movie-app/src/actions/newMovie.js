@@ -13,7 +13,6 @@ export function onNewMovieSubmit({ title, cover }){
 				title,
 				cover
 			})
-				.then(result => console.log(result))
 		})
 	}
 }
