@@ -12,7 +12,9 @@ const initialState = {
 	fetching: false,
 	done: false,
 	error: {},
-	movie: {}
+	movie: {
+		fetching: false
+	}
 };
 
 export default (state = initialState, action) => {
@@ -40,15 +42,24 @@ export default (state = initialState, action) => {
 		case FETCH_MOVIE_PENDING:
 			return {
 				...state,
+				movie: {
+					fetching: true
+				}
 			};
 		case FETCH_MOVIE_FULFILLED:
 			return {
 				...state,
-				movie: action.payload.movie
+				movie: {
+					...action.payload.movie,
+					fetching: false
+				}
 			};
 		case FETCH_MOVIE_REJECTED:
 			return {
 				...state,
+				movie: {
+					fetching: false
+				}
 			};
 		default:
 			return state;

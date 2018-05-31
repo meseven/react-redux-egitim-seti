@@ -57,7 +57,7 @@ class NewMovieForm extends Component {
 	render() {
 		const {errors} = this.state;
 		const form = (
-			<Form onSubmit={this.onSubmit} loading={this.props.newMovie.fetching}>
+			<Form onSubmit={this.onSubmit} loading={this.props.newMovie.fetching || this.props.newMovie.movie.fetching}>
 				<Form.Field>
 					<label>Title</label>
 					{ errors.title && <InlineError message={errors.title} /> }
