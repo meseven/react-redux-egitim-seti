@@ -24,6 +24,7 @@ export function deleteMovie(id){
 		dispatch({
 			type: "DELETE_MOVIE",
 			payload: axios.delete(`${API_BASE}/movies/${id}`)
+				.then(result => Object.assign({}, result, { id }))
 		})
 	}
 }
