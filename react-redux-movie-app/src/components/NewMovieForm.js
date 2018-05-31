@@ -6,8 +6,8 @@ import InlineError from './InlineError';
 
 class NewMovieForm extends Component {
 	state = {
-		title: '',
-		cover: '',
+		title: this.props.movie ? this.props.movie.title : '',
+		cover: this.props.movie ? this.props.movie.cover : '',
 		errors: {}
 	};
 

@@ -9,6 +9,7 @@ class NewMoviePage extends Component {
 			<div>
 				<h2>New Movie</h2>
 				<NewMovieForm
+					movie={this.props.movie}
 					newMovie={this.props.newMovie}
 					onNewMovieSubmit={this.props.onNewMovieSubmit}/>
 			</div>
@@ -16,9 +17,10 @@ class NewMoviePage extends Component {
 	}
 }
 
-const mapStateToProps = ({ newMovie }) => {
+const mapStateToProps = ({ newMovie, movies }, props) => {
 	return {
-		newMovie
+		newMovie,
+		movie: movies.movieList.find(item => item._id === props.match.params._id)
 	}
 };
 
