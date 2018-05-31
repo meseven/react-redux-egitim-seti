@@ -1,9 +1,19 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import NewMovieForm from '../NewMovieForm';
-import { onNewMovieSubmit } from '../../actions/newMovie';
+import {
+	onNewMovieSubmit,
+	fetchMovie
+} from '../../actions/newMovie';
 
 class NewMoviePage extends Component {
+	componentDidMount() {
+		const { match } = this.props;
+		if (!this.props.movie && match.params._id) {
+		  this.props.fetchMovie(match.params._id);
+		}
+	}
+
 	render() {
 		return (
 			<div>
@@ -25,7 +35,8 @@ const mapStateToProps = ({ newMovie, movies }, props) => {
 };
 
 const mapDispatchToProps = {
-	onNewMovieSubmit
+	onNewMovieSubmit,
+	fetchMovie
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(NewMoviePage);
