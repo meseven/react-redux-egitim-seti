@@ -93,7 +93,7 @@ class NewMovieForm extends Component {
 					&&
 					(
 						<Message negative>
-							<Message.Header>We're Sorry</Message.Header>
+							<Message.Header>We`re Sorry</Message.Header>
 							<p>A problem occured while recording.</p>
 						</Message>
 					)
