@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd40ed3a-b754-4dff-ad41-06e8d956fba4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/src/registerServiceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-redux/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/FirstNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/LoaderHOC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/Posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/SecondNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanved-component-usage/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/NewsItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/News.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/NewsForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/NewsItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/myapp/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/Contacts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/List.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-list-app/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-module-system/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-module-system/myModule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-module-system/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-module-system/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/object-assign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/spread-operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/src/Child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/actions/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/actions/newMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/newMovie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/ActorList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActorList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/InlineError.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InlineError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/MovieCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/NewMovieForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewMovieForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MoviesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/pages/NewMoviePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/NewMoviePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/helpers/styleHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/styleHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/reducers/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/reducers/newMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/newMovie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/components/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/components/News.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/components/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/actions/users-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/reducers/productReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/reducers/userReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/yarn.lock" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>editor</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/es6-modul-sistemi/.babelrc" />
+        <option value="$PROJECT_DIR$/es6-modul-sistemi/package.json" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/es6-modul-sistemi/mymodule.js" />
+        <option value="$PROJECT_DIR$/es6-modul-sistemi/index.js" />
+        <option value="$PROJECT_DIR$/es6-modul-sistemi/myModule.js" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/componentler/myapp/README.md" />
+        <option value="$PROJECT_DIR$/componentler/myapp/src/components/NewsItem.js" />
+        <option value="$PROJECT_DIR$/componentler/myapp/src/components/News.js" />
+        <option value="$PROJECT_DIR$/componentler/myapp/src/components/App.js" />
+        <option value="$PROJECT_DIR$/componentler/myapp/src/components/NewsForm.js" />
+        <option value="$PROJECT_DIR$/state/src/App.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/states/README.md" />
+        <option value="$PROJECT_DIR$/redux/README.md" />
+        <option value="$PROJECT_DIR$/react-router/README.md" />
+        <option value="$PROJECT_DIR$/lifecycle/README.md" />
+        <option value="$PROJECT_DIR$/fetching/README.md" />
+        <option value="$PROJECT_DIR$/advanved-component-usage/README.md" />
+        <option value="$PROJECT_DIR$/advanced-redux/src/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/backend/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="38" />
+    <option name="y" value="23" />
+    <option name="width" value="1402" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react-redux-egitim-seti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-redux-egitim-seti" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="/usr/local/lib/node_modules/prettier" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd40ed3a-b754-4dff-ad41-06e8d956fba4" name="Default" comment="" />
+      <created>1524562397790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524562397790</updated>
+      <workItem from="1524562399108" duration="2513000" />
+      <workItem from="1524568760816" duration="174000" />
+      <workItem from="1524569330058" duration="4631000" />
+      <workItem from="1524655293011" duration="623000" />
+      <workItem from="1524657612133" duration="1056000" />
+      <workItem from="1524834666065" duration="318000" />
+      <workItem from="1524839434266" duration="4000" />
+      <workItem from="1524862033529" duration="1000" />
+      <workItem from="1524862503384" duration="653000" />
+      <workItem from="1524863239928" duration="91000" />
+      <workItem from="1524865145416" duration="436000" />
+      <workItem from="1524873332925" duration="1294000" />
+      <workItem from="1524908149821" duration="6047000" />
+      <workItem from="1524924727834" duration="1459000" />
+      <workItem from="1525169149546" duration="1681000" />
+      <workItem from="1525173077940" duration="286000" />
+      <workItem from="1525173501536" duration="152000" />
+      <workItem from="1525179722522" duration="300000" />
+      <workItem from="1525197307755" duration="749000" />
+      <workItem from="1525258736784" duration="11000" />
+      <workItem from="1526414340478" duration="29000" />
+      <workItem from="1526553283698" duration="34000" />
+      <workItem from="1526648116044" duration="157000" />
+      <workItem from="1527025202101" duration="247000" />
+      <workItem from="1527025552465" duration="87000" />
+      <workItem from="1527042351357" duration="76000" />
+      <workItem from="1527042445919" duration="57000" />
+      <workItem from="1527079997127" duration="2000" />
+      <workItem from="1527080733448" duration="1665000" />
+      <workItem from="1527119270696" duration="146000" />
+      <workItem from="1527904693336" duration="184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25163000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="36" y="23" width="1244" height="777" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19051448" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17524116" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/advanced-redux/src/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-redux/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/NewsItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/NewsForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/componentler/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/componentler/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/es6-modul-sistemi/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/es6-module-system/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-module-system/myModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-module-system/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/componentler/node_modules/react-scripts/scripts/test.js" />
+    <entry file="file://$PROJECT_DIR$/componentler/node_modules/react-scripts/scripts/start.js" />
+    <entry file="file://$PROJECT_DIR$/componentler/node_modules/react-scripts/scripts/init.js" />
+    <entry file="file://$PROJECT_DIR$/componentler/node_modules/react-scripts/scripts/build.js" />
+    <entry file="file://$PROJECT_DIR$/componentler/package.json" />
+    <entry file="file://$PROJECT_DIR$/componentler/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/componentler/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/componentler/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/NewsForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/NewsItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/states/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanved-component-usage/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myapp/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-list-app/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="64">
+            <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetching/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecycle/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-router/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/states/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-redux/src/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-redux/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

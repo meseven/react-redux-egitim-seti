@@ -1,4 +1,6 @@
-# React & Redux Eğitimi
-React & Redux dersleri.
+[Live Demo](http://react-redux-movieapp.surge.sh/)
 
-![React js eğitim seti](https://mehmetseven.net/content/images/2018/05/react-js-mehmet-seven-3.jpg)
+## Backend
+[Documentation](https://github.com/meseven/react-redux-egitim-seti/tree/master/react-redux-movie-app/backend)
+
+
