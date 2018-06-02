@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Image, List, Segment } from 'semantic-ui-react';
+import twitterLogo from '../twitter.svg';
 
 const Footer = props => {
 	return (
@@ -17,6 +18,15 @@ const Footer = props => {
 						<List.Item as='a' href='#'>Terms and Conditions</List.Item>
 						<List.Item as='a' href='#'>Privacy Policy</List.Item>
 					</List>
+					<div className="twitter">
+						<a href="https://twitter.com/mehmeteseven" target="_blank">
+							<img
+								src={twitterLogo}
+								width={26}
+								alt="mehmet seven twitter" />
+							<span>@mehmeteseven</span>
+						</a>
+					</div>
 				</Container>
 			</Segment>
 		</div>
