@@ -15,7 +15,7 @@ DB_NAME=xxx
 ```
 
 ## Run the app
-`npm start`
+`npm start:dev` // for locally
 
 ## Endpoints
 
