@@ -2,200 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd40ed3a-b754-4dff-ad41-06e8d956fba4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/src/registerServiceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-redux/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/FirstNumber.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/LoaderHOC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/Posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/SecondNumber.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/components/Users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanved-component-usage/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/NewsItem.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/News.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/NewsForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/components/NewsItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/myapp/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/Contacts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/Form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/List.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/Components/List.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list-app/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6-module-system/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6-module-system/myModule.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6-module-system/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6-module-system/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/object-assign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/spread-operator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetching/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/src/Child.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/actions/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/actions/newMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/newMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/ActorList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActorList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/InlineError.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InlineError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/MovieCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/NewMovieForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewMovieForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MoviesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/components/pages/NewMoviePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/NewMoviePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/helpers/styleHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/styleHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/reducers/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/reducers/newMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/newMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/src/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux-movie-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/components/Error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/components/News.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/components/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/actions/users-actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/reducers/productReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/reducers/userReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -208,7 +16,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -241,7 +59,6 @@
         <option value="$PROJECT_DIR$/componentler/myapp/src/components/App.js" />
         <option value="$PROJECT_DIR$/componentler/myapp/src/components/NewsForm.js" />
         <option value="$PROJECT_DIR$/state/src/App.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/states/README.md" />
         <option value="$PROJECT_DIR$/redux/README.md" />
         <option value="$PROJECT_DIR$/react-router/README.md" />
@@ -250,6 +67,7 @@
         <option value="$PROJECT_DIR$/advanved-component-usage/README.md" />
         <option value="$PROJECT_DIR$/advanced-redux/src/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -304,6 +122,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -356,15 +179,16 @@
       <workItem from="1527079997127" duration="2000" />
       <workItem from="1527080733448" duration="1665000" />
       <workItem from="1527119270696" duration="146000" />
-      <workItem from="1527904693336" duration="184000" />
+      <workItem from="1527904693336" duration="371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25163000" />
+    <option name="totallyTimeSpent" value="25350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1244" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19051448" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -564,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/myapp/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -679,6 +496,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
