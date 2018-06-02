@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 
-/.idea
+.idea/
 
 # testing
 /coverage
