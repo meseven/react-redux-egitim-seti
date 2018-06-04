@@ -1,7 +1,9 @@
-const Users =  props => (
+import UserList from '../components/UserList';
+
+const Users = props => (
 	<div>
-		Users page <br/>
-		{ props.url.query.name }
+		<h2>Users page</h2> <br/>
+		<UserList/>
 	</div>
 );
 
