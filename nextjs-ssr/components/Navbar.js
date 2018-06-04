@@ -1,7 +1,10 @@
+import Link from 'next/link';
+
 const Navbar = () => (
 	<div>
-		<a href="/">Home</a> &nbsp;
-		<a href="/users">Users</a>
+		<Link href="/"><a>Home</a></Link>
+		&nbsp;
+		<Link href="/users"><a>Users</a></Link>
 	</div>
 );
 
