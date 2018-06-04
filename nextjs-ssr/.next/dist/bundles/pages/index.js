@@ -87,7 +87,7 @@ var _jsxFileName = "/Users/mseven/Desktop/app/react-redux-egitim-seti/nextjs-ssr
       fileName: _jsxFileName,
       lineNumber: 1
     }
-  }, "hello next.js");
+  }, "home page");
 });
 
 /***/ }),

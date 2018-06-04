@@ -57,7 +57,7 @@ var _default = function _default() {
       fileName: _jsxFileName,
       lineNumber: 1
     }
-  }, "hello next.js");
+  }, "home page");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (_default);
