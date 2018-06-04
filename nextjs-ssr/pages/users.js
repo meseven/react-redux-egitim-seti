@@ -1,10 +1,13 @@
 import UserList from '../components/UserList';
+import Layout from '../components/Layout';
 
 const Users = props => (
-	<div>
-		<h2>Users page</h2> <br/>
-		<UserList/>
-	</div>
+	<Layout>
+		<div>
+			<h2>Users page</h2> <br/>
+			<UserList/>
+		</div>
+	</Layout>
 );
 
 export default Users;
