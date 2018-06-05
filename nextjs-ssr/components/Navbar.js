@@ -4,7 +4,7 @@ const Navbar = () => (
 	<div>
 		<Link href="/"><a>Home</a></Link>
 		&nbsp;
-		<Link href="/users"><a>Users</a></Link>
+		<Link prefetch href="/users"><a>Users</a></Link>
 	</div>
 );
 
