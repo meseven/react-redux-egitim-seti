@@ -82,6 +82,7 @@ Projenizi yaptıktan sonra en sancılı süreçlerden biri bu olabiliyor. Nereye
  * **Ders 6:** One-Way Data Binding Nedir ?
  * **Ders 7:** Component Nedir ?
  * **Ders 8:** JSX Nedir ?
+ 
 * **Bölüm 2: Kurulumlar**
  * **Ders 9:** Node.JS Kurulumu
  * **Ders 10:** React Dev Tools
