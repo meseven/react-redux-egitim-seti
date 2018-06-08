@@ -1,4 +1,4 @@
-# React & Redux Eğitimi
+# Sıfırdan Her Yönüyle React & Redux
 React & Redux dersleri.
 
 ![React js eğitim seti](https://mehmetseven.net/content/images/2018/05/react-js-mehmet-seven-3.jpg)
