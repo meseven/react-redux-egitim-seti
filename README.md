@@ -73,8 +73,8 @@ Projenizi yaptıktan sonra en sancılı süreçlerden biri bu olabiliyor. Nereye
 `Surge.sh`, `Netlify` ve `Now` üzerine `React` uygulamalarınızı nasıl sancısız bir şekilde deploy edip yönetebileceğinizi detaylı olarak bulacaksınız.
 
 ## Müfredat
-* **Bölüm 1: Giriş**
- * **Ders 1:** React.JS Nedir ?
+1. Bölüm 1: Giriş
+..*Ders 1:** React.JS Nedir ?
  * **Ders 2:** React.JS Hangi Sorunu Çözer
  * **Ders 3:** Virtual Dom nedir ?
  * **Ders 4:** React'ı Kullanmak Ne Zaman Mantıklı ?
