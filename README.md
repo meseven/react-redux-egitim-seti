@@ -1,9 +1,14 @@
 # Sıfırdan Her Yönüyle React & Redux
 React & Redux dersleri.
 
+**Kurs Linki:** [Tıklayın](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS49MS)
+
+**Kupon Kodu:** RJS49MS
+
 ![React js eğitim seti](https://mehmetseven.net/content/images/2018/05/react-js-mehmet-seven-3.jpg)
 
-Kurs `Udemy` üzerinde yayınlanacak. Şuan 11 saat olan ve ufak tefek eksikler tamamlandıktan sonra 12 ila 15 saat bandında bir kurs olacak efenim. Videolar tamamen `60fps` ve `1080p` kalitede hazırlandı. Ayrıca ses profesyonel mikrofon ve ses kartı ile kaydedildi.
+
+Kurs `Udemy` üzerinde yayınlanıyor ve toplamda 11 saatlik videolardan oluşuyor. Videolar tamamen `60fps` ve `1080p` kalitede hazırlandı. Ayrıca ses profesyonel mikrofon ve ses kartı ile kaydedildi.
 
 Malum Türkçe React ve Redux dersleri ile alakalı kaynak bulmak oldukça güç. Ben de bu açığı kapatmak adına bu kursu hazırladım.
 
@@ -78,3 +83,7 @@ Mesele sadece geliştirmek değil arkadaşlar! Mesele eğlenerek geliştirmek. �
 
 Çok özendim bu kursa, umarım maximum faydayı sağlarım size.
 Ben bu kursu bitirdikten sonra sizin için artık hiçbir şeyin eskisi olmayacağına kefilim :)
+
+**Kurs Linki:** [Tıklayın](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS49MS)
+
+**Kupon Kodu:** RJS49MS
