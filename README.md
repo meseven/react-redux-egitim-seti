@@ -1,9 +1,9 @@
 # Sıfırdan Her Yönüyle React & Redux
 React & Redux dersleri.
 
-**Kurs Linki:** [Tıklayın](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS49MS)
+**Kurs Linki:** [Tıklayın](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS24M)
 
-**Kupon Kodu:** RJS49MS
+**Kupon Kodu:** RJS24M
 
 ![React js eğitim seti](https://mehmetseven.net/content/images/2018/05/react-js-mehmet-seven-3.jpg)
 
@@ -84,6 +84,6 @@ Mesele sadece geliştirmek değil arkadaşlar! Mesele eğlenerek geliştirmek. �
 Çok özendim bu kursa, umarım maximum faydayı sağlarım size.
 Ben bu kursu bitirdikten sonra sizin için artık hiçbir şeyin eskisi olmayacağına kefilim :)
 
-**Kurs Linki:** [Tıklayın](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS49MS)
+**Kurs Linki:** [Tıklayın](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS24M)
 
-**Kupon Kodu:** RJS49MS
+**Kupon Kodu:** RJS24M
