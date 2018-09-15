@@ -26,7 +26,8 @@ export default (state = initialState, action) => {
 		case NEW_MOVIE_PENDING:
 			return {
 				...state,
-				fetching: true
+				fetching: true,
+				done: false
 			};
 		case NEW_MOVIE_FULFILLED:
 			return {
@@ -69,7 +70,8 @@ export default (state = initialState, action) => {
 		case UPDATE_MOVIE_PENDING:
 			return {
 				...state,
-				fetching: true
+				fetching: true,
+				done: false
 			};
 		case UPDATE_MOVIE_FULFILLED:
 			return {
