@@ -6,7 +6,7 @@ Clone this folder and install dependencies.
 
 `npm install`
 
-## Development enviroments
+## Enviroments variables
 Create a file named ".env" in the root directory and fill its contents as follows.
 
 ```ruby
