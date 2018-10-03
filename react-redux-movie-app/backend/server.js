@@ -1,9 +1,11 @@
-import express from 'express';
-import mongodb from 'mongodb';
-import bodyParser from 'body-parser';
-import dotenv from 'dotenv';
-import cors from 'cors';
-import cron from './cron';
+
+
+const express = require('express');
+const mongodb = require('mongodb');
+const bodyParser = require('body-parser');
+const dotenv = require('dotenv');
+const cors = require('cors');
+const cron = require('./cron');
 
 const app = express();
 app.use(bodyParser.json({ limit: '50mb' }));
@@ -93,6 +95,6 @@ mongodb.MongoClient.connect(dbUrl, (err, db) =>  {
     });
   });
 
-  app.listen(8080, () => console.log('Server is running on localhost:8080'));
+  app.listen(3000, () => console.log('Server is running on localhost:8080'));
 
 });
