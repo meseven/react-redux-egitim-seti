@@ -43,11 +43,11 @@ const data = [
 ];
 
 module.exports.init = db => {
-	cron.schedule('* * *', () => {
+	cron.schedule('0 5 * * *', () => {
 		db.collection('movies').remove({  }, (err, r) => {
 			db.collection('movies').insertMany(data, (error, inserted) => {
-				if(!error)
-					console.log('cron ok!');
+				if (inserted)
+				  console.log('cron ok!');
 			});
 		})
 	});
