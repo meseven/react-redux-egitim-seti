@@ -18,7 +18,8 @@
     "cors": "^2.8.4",
     "dotenv": "^5.0.1",
     "express": "^4.14.0",
-    "mongodb": "^2.2.11"
+    "mongodb": "^2.2.11",
+    "node-cron": "^2.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

@@ -3,6 +3,7 @@ import mongodb from 'mongodb';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import cors from 'cors';
+import cron from './cron';
 
 const app = express();
 app.use(bodyParser.json({ limit: '50mb' }));
@@ -25,6 +26,8 @@ mongodb.MongoClient.connect(dbUrl, (err, db) =>  {
   if (err) {
     throw new Error(err);
   }
+
+  cron.init(db);
 
   app.get('/api/movies', (req, res) => {
     db.collection('movies').find({}).toArray((err, movies) => {
