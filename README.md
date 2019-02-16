@@ -1,5 +1,5 @@
 # Sıfırdan Her Yönüyle React & Redux
-React & Redux dersleri.
+Udemy üzerinde yayınlanan ["Sıfırdan Her Yönüyle React ve Redux"](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS24M) adlı eğitim setinde yazılan kaynak kodları barındıran repodur.
 
 **Kurs Linki:** [Tıklayın](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS24M)
 
