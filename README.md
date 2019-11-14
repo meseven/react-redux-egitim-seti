@@ -1,11 +1,10 @@
 # Sıfırdan Her Yönüyle React & Redux
-Udemy üzerinde yayınlanan ["Sıfırdan Her Yönüyle React ve Redux"](https://www.udemy.com/react-redux-egitimi/?couponCode=RJS24M) adlı eğitim setinde yazılan kaynak kodları barındıran repodur.
+Udemy üzerinde yayınlanan ["Sıfırdan Her Yönüyle React ve Redux"](http://bit.ly/reactredux_) adlı eğitim setinde yazılan kaynak kodları barındıran repodur.
 
-**Kurs Linki:** [Tıklayın](http://bit.ly/reactm)
+**Kurs Linki:** [Tıklayın](http://bit.ly/reactredux_)
 
-**Kupon Kodu:** MMJS34M
 
-[![React js eğitim seti](https://mehmetseven.net/content/images/2018/05/react-js-mehmet-seven-3.jpg)](http://bit.ly/reactm)
+[![React js eğitim seti](https://mehmetseven.net/content/images/2018/05/react-js-mehmet-seven-3.jpg)](http://bit.ly/reactredux_)
 
 
 
@@ -85,6 +84,5 @@ Mesele sadece geliştirmek değil arkadaşlar! Mesele eğlenerek geliştirmek. �
 Çok özendim bu kursa, umarım maximum faydayı sağlarım size.
 Ben bu kursu bitirdikten sonra sizin için artık hiçbir şeyin eskisi olmayacağına kefilim :)
 
-**Kurs Linki:** [Tıklayın](http://bit.ly/reactm)
+**Kurs Linki:** [Tıklayın](http://bit.ly/reactredux_)
 
-**Kupon Kodu:** MMJS34M
