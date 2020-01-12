@@ -1,5 +1,5 @@
 # React & Redux Movie App Backend
-That Restful API develop with Node.JS and Express.
+That Restful API developed with Node.JS and Express.
 
 ## How to install
 Clone this folder and install dependencies.
