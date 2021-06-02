@@ -1,5 +1,5 @@
 function Header() {
-	return <div>Merhaba Ben Header Bileşeniyim.</div>;
+	return <p>Merhaba Ben Header Bileşeniyim.</p>;
 }
 
 export default Header;
