@@ -5,3 +5,7 @@
 label {
   display: block;
 }
+
+.error {
+  color: red;
+}
