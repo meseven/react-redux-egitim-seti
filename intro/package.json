@@ -1,0 +1,14 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Mehmet Seven <mehmetseven0@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.5.3"
+  }
+}
