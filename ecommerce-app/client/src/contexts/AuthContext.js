@@ -9,9 +9,6 @@ const AuthProvider = ({ children }) => {
 	const login = (data) => {
 		setLoggedIn(true);
 		setUser(data.user);
-
-		localStorage.setItem("access-token", data.accessToken);
-		localStorage.setItem("refresh-token", data.refreshToken);
 	};
 
 	const values = {
