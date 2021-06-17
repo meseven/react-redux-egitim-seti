@@ -3,15 +3,21 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "./reset.css";
 
+import { QueryClient, QueryClientProvider } from "react-query";
+
 import { ChakraProvider } from "@chakra-ui/react";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+const queryClient = new QueryClient();
+
 ReactDOM.render(
 	<React.StrictMode>
-		<ChakraProvider>
-			<App />
-		</ChakraProvider>
+		<QueryClientProvider client={queryClient}>
+			<ChakraProvider>
+				<App />
+			</ChakraProvider>
+		</QueryClientProvider>
 	</React.StrictMode>,
 	document.getElementById("root")
 );
