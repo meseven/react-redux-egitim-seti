@@ -6,7 +6,7 @@ function Card({ item }) {
 	return (
 		<Box borderWidth="1px" borderRadius="lg" overflow="hidden" p="3">
 			<Link to="#/">
-				<Image src="http://lorempixel.com/400/200" alt="product" />
+				<Image src={item.photos[0]} alt="product" loading="lazy" />
 
 				<Box p="6">
 					<Box d="plex" alignItems="baseline">
