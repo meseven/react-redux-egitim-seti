@@ -15,3 +15,12 @@ export const fetchProduct = async (id) => {
 
 	return data;
 };
+
+export const fetchRegister = async (input) => {
+	const { data } = await axios.post(
+		`${process.env.REACT_APP_BASE_ENDPOINT}/auth/register`,
+		input
+	);
+
+	return data;
+};
