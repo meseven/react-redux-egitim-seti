@@ -35,7 +35,10 @@ const Register = async (req, res, next) => {
 		delete userData.password;
 		delete userData.__v;
 
-		const accessToken = await signAccessToken(user._id);
+		const accessToken = await signAccessToken({
+			user_id: user._id,
+			role: user.role,
+		});
 		const refreshToken = await signRefreshToken(user._id);
 
 		res.json({
