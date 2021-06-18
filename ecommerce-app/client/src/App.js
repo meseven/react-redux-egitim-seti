@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 
+import ProtectedRoute from './pages/ProtectedRoute' 
+
 import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import Signin from "./pages/Auth/Signin";
@@ -22,7 +24,7 @@ function App() {
 						<Route path="/product/:product_id" component={ProductDetail} />
 						<Route path="/signin" component={Signin} />
 						<Route path="/signup" component={Signup} />
-						<Route path="/profile" component={Profile} />
+						<ProtectedRoute path="/profile" component={Profile} />
 					</Switch>
 				</div>
 			</div>

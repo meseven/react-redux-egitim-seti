@@ -17,7 +17,7 @@ import { fetchRegister } from "../../../api";
 
 import { useAuth } from "../../../contexts/AuthContext";
 
-function Signup() {
+function Signup({ history }) {
 	const { login } = useAuth();
 
 	const formik = useFormik({
@@ -35,6 +35,8 @@ function Signup() {
 				});
 
 				login(registerResponse);
+
+				history.push("/profile");
 				console.log(registerResponse);
 			} catch (e) {
 				bag.setErrors({ general: e.response.data.message });
