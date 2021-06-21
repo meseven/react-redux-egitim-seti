@@ -1,88 +1,159 @@
-# Sıfırdan Her Yönüyle React & Redux
-Udemy üzerinde yayınlanan ["Sıfırdan Her Yönüyle React ve Redux"](http://bit.ly/reactredux_) adlı eğitim setinde yazılan kaynak kodları barındıran repodur.
+# React.js INDEX
 
-**Kurs Linki:** [Tıklayın](http://bit.ly/reactredux_)
+#### Giriş ####
 
+- [React Nedir? Ne Zaman İhtiyaç Duyarız?](intro/)
+- [Real Dom / Virtual Dom](intro/)
+- [IDE / Text Editor Seçimi](intro/)
+- [Node.JS Kurulumu](intro/)
+- [Temel Node.JS](intro/)
+- [ES6 Modül Sistemi](intro/)
+- [Callback Functions / async-await](intro/)
+- [Promises](intro/)
+- [Array Functions](intro/)
+- [Bölüm Sonu Kazanımları](intro/)
 
-[![React js eğitim seti](https://mehmetseven.net/content/images/2018/05/react-js-mehmet-seven-3.jpg)](http://bit.ly/reactredux_)
+#### Components ####
 
+- [Bir React Projesini Ayağa Kaldırmak (create-react-app)](components/)
+- [Component Nedir?](components/)
+- [Component Oluşturmak/Kullanmak](components/)
+- [JSX ve Temel Kuralları](components/)
+- [Componentlerde Değişken Render Etmek](components/)
+- [Koşullu Render İşlemi](components/)
+- [Bölüm Sonu Kazanımları](components/)
 
+#### Props ####
+- [Props Nedir? Nasıl Kullanılır?](components/)
+- [Döngülerde "key" Prop'u](components/)
+- [React Developer Tools](components/)
+- [Prop Types](components/)
+- [Prop Types: isRequired](components/)
+- [Prop Types: oneOfType](components/)
+- [Prop Types: shape](components/)
+- [Default Props](components/)
+- [Bölüm Sonu Kazanımları](components/)
 
-Kurs `Udemy` üzerinde yayınlanıyor ve toplamda 11 saatlik videolardan oluşuyor. Videolar tamamen `60fps` ve `1080p` kalitede hazırlandı. Ayrıca ses profesyonel mikrofon ve ses kartı ile kaydedildi.
+#### States ####
+- [State Nedir? Nasıl Oluşturulur?](states/)
+- [Array States](states/)
+- [Object States](states/)
+- [Sayaç Uygulaması](states/)
+- [Re-Render Mantığını Anlamak (React vs jQuery)](states/)
+- [Input için State Tanımı Yapmak](states/)
+- [Bölüm Sonu Kazanımları](states/)
 
-Malum Türkçe React ve Redux dersleri ile alakalı kaynak bulmak oldukça güç. Ben de bu açığı kapatmak adına bu kursu hazırladım.
+#### Lifecycle ####
+- [useEffect](lifecycle/)
+- [Component Unmount](lifecycle/)
+- [Bölüm Sonu Kazanımları](lifecycle/)
 
-React ve Redux'ı her yönüyle öğreneceğiniz, sıfırdan başlayan bir eğitim. Zaten kursun adı da **"Sıfırdan Her Yönüyle React & Redux"**. Daha önce hiç `React` ile ilgilenmemiş olanlar da rahatlıkla bu kursu edinip öğrenmeye başlayabilirler.
+#### Contacts App ####
+- [Ne Geliştireceğiz?](contacts-app/)
+- [Form Component'inin Geliştirilmesi](contacts-app/)
+- [Kayıtların Listelenmesi](contacts-app/)
+- [Filtreleme İşlemi](contacts-app/)
+- [Stil Tanımlarının Yapılması](contacts-app/)
+- [Bölüm Sonu Kazanımları](contacts-app/)
 
-## Neleri Konuşuyoruz?
-Her zaman beklentilerin üzerinde kurs vermeyi hedefledim. Yani bu da demek oluyor ki, sadece React ve Redux öğrenmeyeceksiniz. Bu teknolojiler ile entegre çalışabilecek veya bu teknolojiler ile birlikte kullandığınızda ortaya daha iyi işler çıkarabileceğinize inandığım teknolojilerden de bahsettim.
+#### Stillendirme Temelleri ####
+- [Stil Tanımı Yapmak](style-definitions/)
+- [Module CSS](style-definitions/)
 
-Tüm öğrendiklerimizi de havada bırakmayıp projeler ile iyice pekiştirdik. Projelere çok fazla önem verdim. Kursun yaklaşık 4 saatlik kısmını projeler oluşturuyor.
+#### Fetching ####
+- [Native Fetch](fetching/)
+- [Axios](fetching/)
 
+#### Routing ####
+- [Kurulum](routing/)
+- [Exact Prop](routing/)
+- [URL Parameters](routing/)
+- [Nesting](routing/)
+- [NavLink](routing/)
+- [No Match (404)](routing/)
+- [Bölüm Sonu Kazanımları](routing/)
 
-## Temel Dersler
-Bir teknolojiyi her yönüyle öğrenirken en önemli nokta temel dersler. Eğer kullandığınız teknolojinin hangi amaca hizmet ettiğini, hangi sorunu çözmek için ortaya çıktığını bilmeden sırf popüler diye kullanırsanız inanın bana kaliteli işler çıkmıyor. İşte bu noktada "React Nedir?", "Redux Nedir?" ve hangi amaca hizmet etmek için, hangi sorunu çözerek ortaya çıkmışlar detaylı olarak anlattım.
+#### Formik ile Form Yönetimi ####
+- [Kurulum](formik/)
+- [handleSubmit & handleChange](formik/)
+- [Radio / Checkbox / Dropdown](formik/)
+- [useFormik](formik/)
+- [Form Validasyonları - 1](formik/)
+- [Form Validasyonları - 2](formik/)
+- [Bölüm Sonu Kazanımları](formik/)
 
-Kodlarımızı tamamen EcmaScript 6 standartlarına uygun olarak yazdık. EcmaScript 6 temellerinden ve modül sisteminden de ayrıca bahsettim.
+#### Memoization ####
+- [React.memo](memoization/)
+- [useMemo](memoization/)
+- [useCallback](memoization/)
 
-React'in temelini oluşturan `Component`, `Props`, `State`, `React Lifecycle`, `React Router` gibi kavramları özenerek anlattım.
+#### Context API ####
+- [Context Nedir?](context/)
+- [Context Oluşturmak](context/)
+- [Context Provider](context/)
+- [Theme Switcher Yapımı](context/)
+- [Context Provider Side Effects](context/)
+- [Multi Context](context/)
+- [Custom Context Hook](context/)
+- [Bölüm Sonu Kazanımları](context/)
 
-## Redux
-Redux, çoğu zaman anlaması ve uygulaması zor olduğu söylenen bir yapı. Ben bu sorunu konunun sıralı bir şekilde anlatılmamasına bağlıyorum. Sıralı olarak üzerine konarak anlatılan bir kursta oldukça anlaşılır bir yapı.
+#### Real Time Çalışan Uygulamalar Geliştirmek ####
+- [Arayüzün Hazırlanması](realtime/realtime-colors/)
+- [Socket Server'a Bağlanmak](realtime/realtime-colors/)
+- [Backend'e Veri İletmek](realtime/realtime-colors/)
+- [Bir Kanala Abone Olmak](realtime/realtime-colors/)
 
-Redux nedir? Neden ihtiyaç duyarız gibi kilit bir soruyu cevapladıktan sonra, Redux data flow'u tanımlayarak `Action`, `Reducer`, `Dispatcher`, `Store`, `Provider` gibi redux'ın en kilit kavramlarını tek tek anlattım.
+#### Chat App ####
+- [Giriş](realtime/chat-app/)
+- [Chat Context](memoization/)
+- [Temel Bileşenlerin Geliştirilmesi](realtime/chat-app/)
+- [Backend Bağlantısı](realtime/chat-app/)
+- [Mesajların İletilmesi](realtime/chat-app/)
+- [Mesajların Listelenmesi](realtime/chat-app/)
+- [Feed Scroll](realtime/chat-app/)
 
-`Redux-thunk middleware` ile async action'ları nasıl yönetip kullanabileceğinize gerek Redux'ın temellerinde gerek proje derslerinde sık sık değinerek akılda kalıcı olarak kalmasını sağladım. 
+#### Localization ####
+- [React Intl - Kurulum](localization/)
+- [Default Locale](localization/)
+- [Parametre Geçmek](localization/)
 
-Siz kurs içerisinde fark etmiyorsunuz ancak ben aynı şeyi farklı videolarda sık sık tekrarlıyorum. Bir şeyin akılda kalması da tekrara bağlı zaten. 
+#### Testing ####
+- [Neden Test Yazarız?](testing/)
+- [React Testing Library - 1](testing/)
+- [React Testing Library - 2](testing/)
 
-## React & Redux Movieapp Projesi
+#### Publishing ####
+- [create-react-library](publishing/)
+- [Publish İşlemleri](publishing/)
+- [Semantic Versiyonlama](publishing/)
 
-Takdir edersiniz ki öğrenilenleri pekiştirmenin en iyi yöntemi örnek proje geliştirmek. Biz de bu eğitimde React ve Redux ile örnek bir proje geliştirdik. 
+#### Deploy ####
+- [Surge.sh](deploying/)
+- [Netlify](deploying/)
+- [AWS EC2 Üzerine Deploy İşlemleri](deploying/)
+- [Bölüm Sonu Kazanımları](deploying/)
 
-Single page uygulama geliştirilen ortamlarda aslında en büyük ihtiyacınız `CRUD` işlemlerini başarılı bir şekilde yapmak. Projenin büyük yoğunluğu bu tarafta oluyor çünkü. 
-
-Hazırladığımız bu proje CRUD işlemlerini yapabildiğiniz single page bir uygulama aslında.
-
-`Node.JS` ile yazdığımız Restful servisi `React & Redux` ile kullandık. Backend servisleri ile nasıl çalışabileceğinizi burada çok çok iyi anlayacaksınız.
-
-Projenin Kaynak kodları [şurada](https://github.com/meseven/react-redux-egitim-seti/tree/master/react-redux-movie-app).
-
-
-## Sever Side Rendering
-
-Malum, single page web uygulaması yazdığınızda her şey iyi güzel ancak bir dert var ki başa bela. O da SEO. Arama motorlarında iyi bir puana sahip olmak istediğinizde SPA web sayfaları size bunu sağlamıyor. Ancak bunun da çözümü var elbette. O da `Server Side Rendering`.
-
-"Server Side Rendering Nedir? Neden ihtiyaç duyulur?" gibi soruları detaylı olarak anlattım.
-
-## Next.JS
-Server Side Rendering'in ne olduğunu anladıktan sonra `SSR` konusunda en iyi altyapıyı sağlayan [Next.JS](https://nextjs.org/)'i öğrenmeye başladık.
-
-Next.JS'in sahip olduğu `Routing`, `Styled Component`, `HMR`, `Isomorphic Fetch`, `Prefetch` gibi kavramları enine boyuna anlattım.
-
-Ayrıca custom routing işlemlerinde de `Express.JS` kullanarak konuyu destekledim.
-
-Bu bölümden sonra günümüzün en modern web teknolojilerinden biri olan `Next.JS` ile `SSR` destekli `React` uygulamaları geliştirebileceksiniz.
-
-
-## Progressive Web Uygulamaları ve JavaScript Service Workers
-Progressive Web Uygulamaları, belki şuan'a kadar pek duymadığınız ama önümüzdeki on yıl içerisinde en çok duyacağınız kavramlarından biri.
-
-Bir web site düşünün ki internet bağlantısı olmasa dahi çalışabilsin. Bize bunu kazandıran `Service Workers` denilen yapı. Internetin çekmediği metrolarda insanların web sitenizi kullanmasını ister misiniz? İşte bu konuyu da kursta anlattım. Faydalanacağınıza eminim.
-
-## Deploy
-Projenizi yaptıktan sonra en sancılı süreçlerden biri bu olabiliyor. Nereye deploy edeceğiz? Nasıl yöneteceğiz gibi sorular kafanızda sürekli dolaşıyordur eminim.
-
-`React & Redux` ve `Next.JS` projelerinizi deploy edebileceğiniz. Üç ayrı sistemden bu eğitimde bahsettim. 
-
-`Surge.sh`, `Netlify` ve `Now` üzerine `React` uygulamalarınızı nasıl sancısız bir şekilde deploy edip yönetebileceğinizi detaylı olarak bulacaksınız.
-
-
-## Sonuç
-Mesele sadece geliştirmek değil arkadaşlar! Mesele eğlenerek geliştirmek. İşte bu teknolojiler sayesinde eğlenerek geliştireceksiniz. Sizi bilmem ama ben böyle modern web teknolojileri ile proje geliştirince mutlu oluyorum.
-
-Çok özendim bu kursa, umarım maximum faydayı sağlarım size.
-Ben bu kursu bitirdikten sonra sizin için artık hiçbir şeyin eskisi olmayacağına kefilim :)
-
-**Kurs Linki:** [Tıklayın](http://bit.ly/reactredux_)
-
+#### E-Commerce App ####
+- [Uygulama Tanıtımı](ecommerce-app/)
+- [Backend'e Genel Bakış](ecommerce-app/)
+- [Chakra UI Kurulumu](ecommerce-app/)
+- [Products Ekranının Hazırlanması](ecommerce-app/)
+- [React Query](ecommerce-app/)
+- [React Query Dev Tools](ecommerce-app/)
+- [Ürün Detay Sayfasının Geliştirilmesi](ecommerce-app/)
+- [useInfiniteQuery](ecommerce-app/)
+- [Kullanıcı Kayıt İşlemleri - 1](ecommerce-app/)
+- [Kullanıcı Kayıt İşlemleri - 2](ecommerce-app/)
+- [Kullanıcı Kayıt İşlemleri - 3](ecommerce-app/)
+- [Kullanıcı Kayıt İşlemleri - 4](ecommerce-app/)
+- [Çıkış İşlemleri](ecommerce-app/)
+- [Protected Routes](ecommerce-app/)
+- [Login İşlemleri](ecommerce-app/)
+- [Sepete Atma İşlemleri - 1](ecommerce-app/)
+- [Sepete Atma İşlemleri - 2](ecommerce-app/)
+- [Sipariş Oluşturma İşlemleri](ecommerce-app/)
+- [Admin: Routing İşlemleri](ecommerce-app/)
+- [Admin: Order Sayfası](ecommerce-app/)
+- [Admin: Products Sayfası](ecommerce-app/)
+- [Admin: Product Update İşlemleri](ecommerce-app/)
+- [Admin: Yeni Ürün Eklemek](ecommerce-app/)
