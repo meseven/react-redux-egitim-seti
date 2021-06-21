@@ -105,7 +105,7 @@
 
 #### Chat App ####
 - [Giriş](realtime/chat-app/)
-- [Chat Context](memoization/)
+- [Chat Context](realtime/chat-app/)
 - [Temel Bileşenlerin Geliştirilmesi](realtime/chat-app/)
 - [Backend Bağlantısı](realtime/chat-app/)
 - [Mesajların İletilmesi](realtime/chat-app/)
